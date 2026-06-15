@@ -1,0 +1,73 @@
+body{
+  margin:0;
+  font-family:"Yu Gothic";
+  background:#fff8f7;
+}
+
+.logo{
+  width:240px;
+}
+
+.firstview img{
+  width:100%;
+  display:block;
+}
+
+.reserve{
+  max-width:1200px;
+  margin:auto;
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:20px;
+  padding:50px 20px;
+}
+
+.card{
+  background:#fff;
+  border-radius:20px;
+  overflow:hidden;
+  box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.card img{
+  width:100%;
+}
+
+.btn{
+  display:block;
+  text-align:center;
+  margin:20px;
+  padding:15px;
+  background:#e9909b;
+  color:#fff;
+  text-decoration:none;
+  border-radius:999px;
+}
+
+.partner{
+  text-align:center;
+  padding:80px 20px;
+}
+
+.partner img{
+  width:100%;
+  max-width:700px;
+}
+
+.line-btn{
+  display:inline-block;
+  margin-top:20px;
+  background:#06C755;
+  color:#fff;
+  padding:18px 40px;
+  border-radius:999px;
+  text-decoration:none;
+}
+
+@media(max-width:768px){
+
+.reserve{
+  grid-template-columns:1fr;
+}
+
+}
